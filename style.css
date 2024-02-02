@@ -1,0 +1,55 @@
+body {
+    font-family: 'Delius Unicase', cursive;
+    text-align: center;
+}
+
+.bg {
+    background-color: #EEF5FF;
+}
+
+.cloud {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    
+}
+
+.cloud2 {
+    grid-column-start: 4;
+}
+
+.world {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    
+}
+
+.map {
+    grid-column-start: 2;
+}
+
+.photo {
+    border-radius: 60%;
+}
+
+.resume {
+    background-color: #f5f6f7;
+
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    background: #EEF5FF;
+    border: solid black 1px;
+}
+
+.gif {
+    border-radius: 10%;
+}
+
+p {
+    font-size: 1em;
+}
